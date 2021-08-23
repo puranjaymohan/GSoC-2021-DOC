@@ -1,5 +1,9 @@
 # IIO Driver for Analog Devices' ADXL355 Accelerometer
 
+![ADXL355](imgs/adxl355.webp)
+<img src="imgs/board.png" alt="evaluation board" width="400"/>
+
+
 ## Project Overview
 IIO Subsystem is the home of Linux sensors, it provides support to ADCs, DACs, Accelerometers,
 Temperature sensors, etc. IoT and industrial applications require sensors to monitor and control
@@ -41,6 +45,9 @@ Here, iio_generic_buffer is used to capture the tiggered buffer data.
 ![IIO Oscilloscope Plot](imgs/generic_buffer.png)
 
 ## Patches
+
+![IIO](imgs/iio.png)
+<img src="imgs/analog.png" alt="evaluation board" width="400" />
 
 ### IIO Maintainer's Tree [Upstream]
 
